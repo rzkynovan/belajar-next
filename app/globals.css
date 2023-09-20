@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'cavalier';
+  src: url(../public/font/Cavalier.ttf);
+}
+@font-face {
+  font-family: 'cinzel-reg';
+  src: url(../public/font/CinzelDecorative-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +37,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Cinzel Decorative', cursive;
+
 }
